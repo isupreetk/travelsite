@@ -1,0 +1,55 @@
+.hero__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.hero__content1 {
+  width: 60%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 70px;
+}
+
+.hero__slogan {
+  color: #335576;
+  width: 60%;
+}
+
+.hero__paragraph {
+  width: 90%;
+}
+
+.hero__content2 {
+  width: 40%;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 70px;
+}
+
+.hero__image {
+  width: 400px;
+  height: 300px;
+  padding: 20px 20px;
+}
+
+.button {
+  background-color: #db7a4e;
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+  border: 0;
+  margin-top: 20px;
+}
+
+.button__link {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 16px;
+}
