@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 460px;
+  height: 28.75rem; /* 460px; */
 }
 
 .hero__content1 {
@@ -12,19 +12,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-left: 70px;
-  margin-top: -40px;
+  padding-left: 4.375rem; /* 70px; */
+  margin-top: -2.5rem; /* -40px; */
 }
 
 .hero__slogan {
   color: #335576;
   width: 70%;
-  font-size: 35px;
+  font-size: 2.1875rem; /* 35px; */
 }
 
 .hero__paragraph {
   width: 90%;
-  margin-top: 0px;
+  margin-top: 0rem; /* 0px; */
 }
 
 .hero__content2 {
@@ -32,31 +32,31 @@
   display: inline-flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 70px;
+  padding-right: 4.375rem; /* 70px; */
 }
 
 .hero__image {
-  width: 430px;
-  height: 380px;
-  padding: 20px 20px;
-  margin-right: -10px;
+  width: 26.875rem; /* 430px; */
+  height: 23.75rem; /* 380px; */
+  padding: 1.25rem 1.25rem; /* 20px 20px; */
+  margin-right: -0.625rem; /* -10px; */
 }
 
 .button {
   background-color: #db7a4e;
-  border-radius: 20px;
-  width: 150px;
-  height: 40px;
+  border-radius: 1.25rem; /* 20px; */
+  width: 9.375rem; /* 150px; */
+  height: 2.5rem; /* 40px; */
   border: 0;
-  margin-top: 20px;
+  margin-top: 1.25rem; /* 20px; */
 }
 
 .button__link {
   text-decoration: none;
   color: white;
   text-align: center;
-  padding: 10px 0px;
-  font-size: 16px;
+  padding: 0.625rem 0rem; /* 10px 0px; */
+  font-size: 1rem; /* 16px; */
 }
 
 /* moved to global.css */
@@ -89,9 +89,9 @@
 
 .section__heading {
   color: #335576;
-  padding-left: 70px;
-  font-size: 20px;
-  margin-top: 40px;
+  padding-left: 4.375rem; /* 70px; */
+  font-size: 1.25rem; /* 20px; */
+  margin-top: 2.5rem; /* 40px; */
 }
 
 .card__image {
@@ -120,9 +120,9 @@
 .card__title {
   text-decoration: none;
   position: absolute;
-  bottom: 15px;
-  right: 20px;
+  bottom: 0.9375rem; /* 15px; */
+  right: 1.25rem; /* 20px; */
   color: #ffffff;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 1.375rem; /* 22px; */
 }

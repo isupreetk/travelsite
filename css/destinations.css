@@ -1,13 +1,15 @@
 .destination__background {
   background-position: center;
   background-size: cover;
-  /* height: auto; */
-
   display: block;
-  max-width: 1300px;
-  max-height: 600px;
+  max-width: 81.25rem; /* 1300px; */
+  max-height: 37.5rem; /* 600px; */
   width: 100%;
   height: auto;
+  /* 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 .destination__background--hawaii {
@@ -24,16 +26,16 @@
 
 .destination-name {
   color: #ffffff;
-  font-size: 65px;
-  padding-top: 50px;
-  padding-left: 75px;
-  margin: 0px;
+  font-size: 4.0625rem; /* 65px; */
+  padding-top: 3.125rem; /* 50px; */
+  padding-left: 4.6875rem; /* 75px; */
+  margin: 0rem; /* 0px; */
 }
 
 .card--destination {
   flex-direction: column;
   background-color: white;
-  margin-top: 50px;
+  margin-top: 3.125rem; /* 50px; */
 }
 
 .card__day {
@@ -42,9 +44,9 @@
   align-items: center;
   width: 90%;
   font-weight: 700;
-  font-size: 18px;
-  margin-top: -25px;
-  border-bottom: 3px solid black;
+  font-size: 1.125rem; /* 18px; */
+  margin-top: -1.5625rem; /* -25px; */
+  border-bottom: 0.1875rem solid black; /* 3px solid black; */
 }
 
 .card__itenary-wrapper {
@@ -53,8 +55,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin: 0px;
-  margin-top: -40px;
+  margin: 0rem; /* 0px; */
+  margin-top: -2.5rem; /* -40px; */
 }
 
 .card__itenary {
@@ -62,12 +64,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10px;
-  margin-left: -20px;
+  margin: 0.625rem; /* 10px; */
+  margin-left: -1.25rem; /* -20px; */
 }
 
 .card__itenary--background {
   background-color: #fefaf5;
   width: 100%;
-  padding: 10px;
+  padding: 0.625rem; /* 10px; */
 }
