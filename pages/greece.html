@@ -2,73 +2,74 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel Site</title>
-    <link rel="stylesheet" href="./css/global.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination - Greece</title>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/destinations.css" />
 </head>
 
 <body>
+
     <header>
         <nav class="navigation">
-            <h1 class="navigation__logo"><a href="./index.html" class="navigation__logo--link">Travel Site</a></h1>
+            <h1 class="navigation__logo"><a href="../index.html" class="navigation__logo--link">Travel Site</a></h1>
             <ul class="navigation__list">
                 <li>
+                    <a class="navigation__list-items navigation__list-items:hover" href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a class="navigation__list-items navigation__list-items:hover" href="./hawaii.html">Hawaii</a>
+                </li>
+                <li>
+                    <a class="navigation__list-items navigation__list-items:hover" href="./iceland.html">Iceland</a>
+                </li>
+                <li>
                     <a class="navigation__list-items navigation__list-items--selected navigation__list-items:hover"
-                        href="./index.html">Home</a>
-                </li>
-                <li>
-                    <a class="navigation__list-items navigation__list-items:hover" href="./pages/hawaii.html">Hawaii</a>
-                </li>
-                <li>
-                    <a class="navigation__list-items navigation__list-items:hover"
-                        href="./pages/iceland.html">Iceland</a>
-                </li>
-                <li>
-                    <a class="navigation__list-items navigation__list-items:hover" href="./pages/greece.html">Greece</a>
+                        href="./greece.html">Greece</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero__section pink-bckgrnd">
-        <div class="hero__content1">
-            <h2 class="hero__slogan">Travelling Comes With Endless Discoveries</h2>
-            <p class="hero__paragraph">Don't let your dreams be just dreams. Experience the world by booking a
-                vacation with us now.</p>
-            <a class="button button__link" href="#">Get started</a>
-        </div>
-        <div class="hero__content2">
-            <img class="hero__image" src="./assets/images/hero.png" alt="hero.png">
-        </div>
-    </section>
-
-
-    <section>
-        <h3 class="section__heading">Recommendations</h3>
+    <section class="destination__background destination__background--greece">
+        <h3 class="destination-name">Greece</h3>
         <div class="card__container">
             <div class="card__wrapper">
-                <div>
-                    <a href="./pages/hawaii.html" class="card card__image card__image--hawaii">
-                        <span class="card__title">Hawaii</span>
-                    </a>
+                <div class="card card--destination">
+                    <div class="card__day">Friday</div>
+                    <ul class="card__itenary-wrapper">
+                        <li class="card__itenary card__itenary--background">Breakfast</li>
+                        <li class="card__itenary card__itenary--background">Lunch</li>
+                        <li class="card__itenary card__itenary--background">Dinner</li>
+                        <li class="card__itenary card__itenary--background">Dancing</li>
+                    </ul>
                 </div>
-                <div>
-                    <a href="./pages/iceland.html" class="card card__image card__image--iceland">
-                        <span class="card__title">Iceland</span>
-                    </a>
+
+                <div class="card card--destination">
+                    <div class="card__day">Saturday</div>
+                    <ul class="card__itenary-wrapper">
+                        <li class="card__itenary card__itenary--background">Breakfast</li>
+                        <li class="card__itenary card__itenary--background">Lunch</li>
+                        <li class="card__itenary card__itenary--background">Dinner</li>
+                        <li class="card__itenary card__itenary--background">Dancing</li>
+                    </ul>
                 </div>
-                <div>
-                    <a href="./pages/greece.html" class="card card__image card__image--greece">
-                        <span class="card__title">Greece</span>
-                    </a>
+
+                <div class="card card--destination">
+                    <div class="card__day">Sunday</div>
+                    <ul class="card__itenary-wrapper">
+                        <li class="card__itenary card__itenary--background">Breakfast</li>
+                        <li class="card__itenary card__itenary--background">Lunch</li>
+                        <li class="card__itenary card__itenary--background">Dinner</li>
+                        <li class="card__itenary card__itenary--background">Dancing</li>
+                    </ul>
                 </div>
+
             </div>
         </div>
     </section>
-    
 
     <footer class="pink-bckgrnd">
 
@@ -133,11 +134,11 @@
                 </div>
                 <div class="footer__content-container">
                     <div class="footer__content footer__content--image">
-                        <img class="image footer__attribute-image" src="./assets/images/icon-instagram.png"
+                        <img class="image footer__attribute-image" src="../assets/images/icon-instagram.png"
                             alt="instagram.com" />
-                        <img class="image footer__attribute-image" src="./assets/images/icon-facebook.png"
+                        <img class="image footer__attribute-image" src="../assets/images/icon-facebook.png"
                             alt="facebook.com" />
-                        <img class="image footer__attribute-image" src="./assets/images/icon-twitter.png"
+                        <img class="image footer__attribute-image" src="../assets/images/icon-twitter.png"
                             alt="twitter.com" />
                     </div>
                 </div>
@@ -145,6 +146,7 @@
         </div>
 
     </footer>
+
 </body>
 
 </html>

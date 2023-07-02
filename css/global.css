@@ -1,8 +1,5 @@
 * {
   box-sizing: border-box;
-}
-
-body {
   font-family: Verdana;
 }
 
@@ -10,6 +7,7 @@ body {
   display: flex;
   width: 100%;
   background-color: #ffffff;
+  position: sticky;
 }
 
 .navigation__logo {
@@ -19,6 +17,14 @@ body {
   width: 60%;
   color: #335576;
   padding-left: 70px;
+  height: 10px;
+  margin: 16px px 0px;
+}
+
+.navigation__logo--link {
+  text-decoration: none;
+  color: #335576;
+  font-size: 20px;
 }
 
 .navigation__list {
@@ -27,7 +33,7 @@ body {
   display: inline-flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 40%;
+  width: 35%;
 }
 
 .navigation__list-items {
@@ -35,41 +41,60 @@ body {
   color: black;
 }
 
-.navigation__list-items:hover {
+.navigation__list-items--selected {
+  padding-bottom: 6px;
+  border-bottom: 5px solid #db7a4e;
+}
+
+/* .navigation__list-items:hover {
   text-decoration: underline;
   text-decoration-color: #db7a4e;
-}
+} */
 
 .pink-bckgrnd {
   background-color: #fefaf5;
   margin: 0;
 }
 
-/* .footer {
-  /* background-color: #fefaf5; */
-/* display: flex;
-  flex-direction: column;
-  align-items: space-around;
-  justify-content: center; */
-/* height: 20%; */
-/* } */
+.card__container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-/* .footer {
+.card__wrapper {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card {
   display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 33%;
-  height: 20%;
-} */
+  align-items: center;
+  justify-content: space-evenly;
+  height: 380px;
+  width: 270px;
+  margin: 5px 20px 70px 20px;
+  /* margin-top: 5px;
+  margin-bottom: 70px;
+  margin-left: 20px;
+  margin-right: 20px; */
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
 
 .footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
-  height: 20%;
-  /* padding-top: 150px; */
+  height: 50%;
+  padding-top: 20px;
 }
 
 .footer__section {
@@ -77,70 +102,64 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  /* width: 33%; */
-  /* padding-left: 100px; */
 }
 
 .footer__heading {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  /* width: 33%; */
-  /* height: 30%; */
+  width: 100%;
   height: 100px;
+  margin-left: 60px;
+  font-size: 20px;
 }
 
-/* .footer__content-container {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  height: 70%;
-} */
+.footer__heading--social {
+  padding-top: 0px;
+}
+
+.footer__title-text {
+  font-size: 13px;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+
+.footer__title-text--color {
+  color: #335576;
+}
+
+.footer__content-container {
+  margin-top: -25px;
+}
 
 .footer__content {
   display: inline-flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
-  /* height: 70%; */
   height: 70px;
   padding-left: 30px;
+  justify-content: flex-end;
+}
+
+.footer__subtitle {
+  font-size: 10px;
+  margin-bottom: 0px;
+}
+
+.footer__subtitle--color {
+  color: #db7a4e;
 }
 
 .footer__content--image {
   flex-direction: row;
+  padding-left: 0px;
 }
 
 .footer__content-value {
   display: flex;
-  /* flex-direction: row; */
   justify-content: center;
   align-items: center;
 }
-
-/* .footer__section-content-value {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-} */
-
-/* .footer__hours-section {
-  display: inline-flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  /* width: 33%; */
-/* padding-left: 100px; */
-/*} */
-
-/* .footer__social-section {
-  display: inline-flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  /* width: 33%; */
-/* padding-left: 100px; */
-/*} */
 
 .footer__attribute-image {
   display: inline-flex;
@@ -150,8 +169,7 @@ body {
 }
 
 .image {
-  /* width: 50px; */
-  height: 50px;
+  height: 35px;
   padding-left: 30px;
   padding-top: 15px;
 }
