@@ -2,14 +2,10 @@
   background-position: center;
   background-size: cover;
   display: block;
-  max-width: 81.25rem; /* 1300px; */
-  max-height: 37.5rem; /* 600px; */
   width: 100%;
   height: auto;
-  /* 
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; */
+  /* enable below line to make the image match exactly with the mockup */
+  /* background-size: 1280px 1650px;  */
 }
 
 .destination__background--hawaii {
