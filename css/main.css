@@ -66,6 +66,11 @@
   margin-top: 2.5rem;
 }
 
+.card:hover {
+  background-color: #ffffff;
+  opacity: 50%;
+}
+
 .card__image {
   background-position: center;
   background-size: cover;
