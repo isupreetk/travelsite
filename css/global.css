@@ -48,10 +48,10 @@
   border-bottom: 0.3125rem solid #db7a4e; /* 5px solid #db7a4e; */
 }
 
-/* .navigation__list-items:hover {
-  text-decoration: underline;
-  text-decoration-color: #db7a4e;
-} */
+.navigation__list-items:hover {
+  padding-bottom: 0.375rem; /* 6px; */
+  border-bottom: 0.3125rem solid #db7a4e; /* 5px solid #db7a4e; */
+}
 
 .pink-bckgrnd {
   background-color: #fefaf5;
